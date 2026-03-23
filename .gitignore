@@ -53,3 +53,13 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Local build/profiling artifacts for this TP
+test_gprof
+gmon.out
+perf.data
+perf.data.old
+
+# PlatformIO / VS Code local artifacts
+.pio/
+.vscode/
